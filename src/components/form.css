@@ -1,0 +1,22 @@
+.form-service {
+  width: 50%;
+}
+.form-service form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  margin: 1rem 0;
+  padding: 1rem 0.55rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+input[type="submit"] {
+  background-color: rgb(241, 162, 4);
+}
+input[type="submit"]:hover {
+  color: white;
+  padding: 1rem 0.55rem;
+}
